@@ -14,9 +14,9 @@ export async function onRequest(context) {
     },
     infoBox: {
       text: env.CONFIG_INFO_TEXT || "如需修改昵称信息，您可以将您的赞赏截图和转账单号/支付单号和修改昵称发送到",
-      email: env.CONFIG_INFO_EMAIL || "zrf@zrf.me",
+      email: env.CONFIG_INFO_EMAIL || "borling@vip.qq.com",
     },
-    footerHTML: env.CONFIG_FOOTER_HTML || `周润发: <a href="https://d.zrf.me/blog">博客</a>`,
+    footerHTML: env.CONFIG_FOOTER_HTML || `Borling: <a href="https://borling.daydayupup.com">博客</a>`,
     pagination: {
       rowsPerPage: parseInt(env.CONFIG_ROWS_PER_PAGE, 10) || 10,
     },
